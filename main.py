@@ -8,9 +8,13 @@ def back(a, b, c):
     else:
         return f'x = {ans[0]}'
 
+def back_middle():
+
+
 def front():
     a, b, c = map(int, input('Введите коэффициенты при a, b и c ').split())
     print(back(a, b, c))
+
 
 front()
 
